@@ -1,0 +1,73 @@
+/* 頁籤切換設定 */
+.tab-content {
+    display: none;
+    text-align: -webkit-center;
+}
+
+#tab-1 {
+    display: flex;
+    text-align: center;
+}
+
+
+.test-block{
+    background: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* video card */
+.test-video{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.video-card{
+    width: 100%;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+.video-card .img {
+    width: 100%;
+}
+
+/* pic card */
+.test-pic{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.pic-card{
+    width: 100%;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+.pic-card .img {
+    width: 100%;
+}
+
+/* article */
+.test-art{
+    width: 1000px;
+    display:flex;
+    justify-content: center;
+}
+
+.art-card{
+    width: 50%;
+    height: 100px;
+    margin: 0 30px;
+    text-align: center;
+    border: 5px solid blue;
+    overflow: hidden;
+}
+
+.art-card .img {
+    width: 100%;
+    max-height: 100px;
+}
