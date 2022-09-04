@@ -71,3 +71,24 @@
     width: 100%;
     max-height: 100px;
 }
+
+/* recom */
+.recom{
+    text-align: center;
+    background: #ababab;
+
+}
+
+.recom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.test-recom{
+    width: 80%;
+}
+
+.card-item{
+    border: 5px solid blue;
+    margin: 0 20px;
+}
