@@ -60,7 +60,7 @@
 
 .art-card{
     width: 50%;
-    height: 100px;
+    max-height: 500px;
     margin: 0 30px;
     text-align: center;
     border: 5px solid blue;
@@ -91,4 +91,9 @@
 .card-item{
     border: 5px solid blue;
     margin: 0 20px;
+}
+
+.test-recom img {
+    width: 100%;
+    opacity: 50%;
 }
