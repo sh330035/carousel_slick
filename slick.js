@@ -27,9 +27,43 @@ $('.test-pic').slick({
 $('.test-art').slick({
   infinite: false,
   slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ],
 });
 
 $('.test-recom').slick({
   infinite: false,
   slidesToShow: 4,
+  responsive: [
+    {
+      breakpoint: 1330,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ],
 })

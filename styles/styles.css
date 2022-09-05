@@ -19,7 +19,7 @@
 
 /* video card */
 .test-video{
-    width: 600px;
+    max-width: 600px;
     display:flex;
     justify-content: center;
 }
